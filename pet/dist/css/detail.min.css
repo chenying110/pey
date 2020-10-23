@@ -1,0 +1,1245 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+.div-header {
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.header {
+  width: 1200px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.left-header {
+  float: left;
+}
+
+.left-header li {
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.left-header li:nth-child(2) {
+  margin-right: 12px;
+}
+
+.left-header li:nth-child(2) a:hover {
+  color: blue;
+}
+
+.left-header li:nth-child(1) span {
+  display: inline-block;
+  margin-top: 6px;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/epetbrand.png) no-repeat 0px 3px;
+}
+
+.left-header li:nth-child(5) span {
+  display: inline-block;
+  width: 14px;
+  height: 7px;
+  background: url(../../dist/image/xqico.png) no-repeat -5px -36px;
+}
+
+.left-header li:nth-child(6) span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../dist/image/bg.png) no-repeat -9px -428px;
+}
+
+.left-header li:nth-child(7) {
+  margin-left: 8px;
+}
+
+.left-header li:nth-child(7) a:hover {
+  color: orange;
+}
+
+.left-header a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #444444;
+  line-height: 30px;
+}
+
+.list-header p {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #000000;
+}
+
+.list-header b {
+  font-size: 14px;
+  font-weight: normal;
+  color: #666666;
+}
+
+.right-header {
+  float: right;
+}
+
+.right-header li {
+  float: left;
+  list-style: none;
+  line-height: 30px;
+  margin-right: 12px;
+}
+
+.right-header li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #444444;
+}
+
+.right-header ul li a:hover {
+  color: blue;
+}
+
+.right-header ul li:nth-child(3) span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/bg.png) no-repeat -289px -44px;
+}
+
+.right-header ul li:nth-child(4) span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/bg.png) no-repeat -312px -44px;
+}
+
+.right-header ul li:nth-child(5) span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/bg.png) no-repeat -354px -45px;
+}
+
+.right-header ul li:nth-child(6) span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/bg.png) no-repeat -335px -45px;
+}
+
+.right-header ul li:nth-child(7) a {
+  color: #ff0000;
+}
+
+.right-header ul li:nth-child(7) a:hover {
+  color: blue;
+}
+
+#inner {
+  position: relative;
+}
+
+#inner ul {
+  position: absolute;
+  left: 0px;
+  top: 28px;
+  width: 80px;
+  height: 95px;
+  background: #ffffff;
+  border: 1px solid gray;
+  border-top: none;
+  display: none;
+}
+
+#inner ul li {
+  height: 16px;
+  width: 80px;
+}
+
+#inner ul li a {
+  color: #444444;
+  font-size: 12px;
+}
+
+/* search */
+.head-newyear {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+
+.head-newyear .max {
+  width: 1200px;
+  height: 110px;
+  margin-top: 20px;
+}
+
+.head-newyear .max h5 {
+  display: block;
+  width: 268px;
+  height: 94px;
+  float: left;
+  background: url(../image/epet-logo.png) no-repeat 0 -12px;
+}
+
+.head-newyear .max .search {
+  float: left;
+  display: block;
+  width: 496px;
+  height: 72px;
+  margin-left: 60px;
+}
+
+.head-newyear .max .search .search-form {
+  float: left;
+  margin-top: 16px;
+  margin-bottom: 13px;
+}
+
+.head-newyear .max .search .search-form .input-1 {
+  display: block;
+  width: 402px;
+  height: 31px;
+  border: 1px solid green;
+  font-size: 14px;
+  float: left;
+  outline: none;
+  line-height: 31px;
+  text-indent: 10px;
+}
+
+.head-newyear .max .search .search-form .input-2 {
+  display: block;
+  float: left;
+  width: 70px;
+  height: 33px;
+  line-height: 36px;
+  background: #459d36;
+  text-align: center;
+  color: #ffffff;
+}
+
+.head-newyear .max .search .keywords {
+  width: 350px;
+  height: 15px;
+}
+
+.head-newyear .max .search .keywords a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 12px;
+  margin: 0 4px;
+}
+
+.head-newyear .max .search .keywords a:first-child {
+  margin-left: 0;
+}
+
+.head-newyear .max .search .keywords a:nth-child(2) {
+  color: red;
+}
+
+.head-newyear .max .shop {
+  width: 130px;
+  height: 40px;
+  float: right;
+  background: url(../../dist/image/shopping-cart.gif) no-repeat;
+  margin-top: 15px;
+  position: relative;
+}
+
+.head-newyear .max .shop a {
+  color: #666666;
+  font-size: 12px;
+  position: absolute;
+  left: 53px;
+  top: 10px;
+}
+
+.head-newyear .max .shop a em {
+  font-style: normal;
+}
+
+/* nav*/
+.nav {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+
+.nav .wmax {
+  width: 228px;
+  height: 36px;
+  float: left;
+}
+
+.nav .wmax .maincates {
+  width: 228px;
+  height: 36px;
+}
+
+.nav .wmax .maincates .epet-type-1 {
+  display: block;
+  width: 112px;
+  height: 34px;
+  border: 1px solid #e1e1e1;
+  float: left;
+  background: orange;
+  line-height: 34px;
+}
+
+.nav .wmax .maincates .epet-type-1 a {
+  display: block;
+  float: left;
+  margin-left: 29px;
+  color: #ffffff;
+}
+
+.nav .wmax .maincates .epet-type-1 b {
+  width: 17px;
+  height: 15px;
+  display: block;
+  float: left;
+  margin-top: 12px;
+  margin-left: 3px;
+  background: url(../../dist/image/bg2.png) no-repeat 0px -1258px;
+}
+
+.nav .wmax .maincates .epet-type-2 {
+  display: block;
+  float: left;
+  width: 112px;
+  height: 34px;
+  line-height: 34px;
+  background: orange;
+  border: 1px solid #e1e1e1;
+}
+
+.nav .wmax .maincates .epet-type-2 a {
+  display: block;
+  float: left;
+  margin-left: 15px;
+  color: #444444;
+}
+
+.nav .wmax .maincates .epet-type-2 b {
+  width: 17px;
+  height: 13px;
+  display: block;
+  float: left;
+  margin-left: 4px;
+  margin-top: 12px;
+  background: url(../../dist/image/bg2.png) no-repeat 0px -1273px;
+}
+
+.nav .menus {
+  height: 36px;
+  display: block;
+  float: left;
+}
+
+.nav .menus li {
+  float: left;
+  width: 90px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 25px;
+  line-height: 20px;
+}
+
+.nav .menus li:nth-child(3) {
+  width: 80px;
+  height: 20px;
+}
+
+.nav .menus li i {
+  display: block;
+  background: url(../../dist/image/bg2.png) no-repeat -35px -1278px;
+  width: 13px;
+  height: 20px;
+  float: left;
+}
+
+.nav .menus li a {
+  display: block;
+  float: left;
+  color: #000000;
+  margin-left: 3px;
+}
+
+.nav .menus li a:hover {
+  color: green;
+}
+
+/*detail*/
+.detail-page {
+  width: 100%;
+  border-top: 2px solid green;
+}
+
+.detail-page .detail {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.detail-page .detail .dog-kind {
+  width: 1200px;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.detail-page .detail .dog-kind .small-dog {
+  display: inline-block;
+  width: 105px;
+  height: 26px;
+  color: #666666;
+  border: 1px solid #e4e4e4;
+}
+
+.detail-page .detail .dog-kind .small-dog span {
+  padding-left: 18px;
+  padding-right: 38px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.detail-page .detail .dog-kind .small-dog b {
+  display: inline-block;
+  width: 11px;
+  height: 7px;
+  background: url(../../dist/image/bg2.png) no-repeat -38px -1258px;
+}
+
+.detail-page .detail .dog-kind .small-dog ul {
+  position: absolute;
+  left: 18px;
+  top: 60px;
+  border: 1px solid #e4e4e4;
+}
+
+.detail-page .detail .dog-kind .small-dog ul li {
+  display: list-item;
+  line-height: 22px;
+  height: 22px;
+  overflow: hidden;
+  border-bottom: 1px dashed #eee;
+}
+
+.detail-page .detail .dog-kind .small-dog ul li a {
+  color: #666666;
+  font-size: 12px;
+}
+
+.detail-page .detail .dog-kind label {
+  margin: 0 12px;
+  display: inline-block;
+  width: 6px;
+  height: 10px;
+  background: url(../../dist/image/bg2.png) no-repeat -38px -1265px;
+}
+
+.detail-page .detail .dog-kind .small-main {
+  display: inline-block;
+  width: 105px;
+  height: 26px;
+  color: #666666;
+  border: 1px solid #e4e4e4;
+}
+
+.detail-page .detail .dog-kind .small-main span {
+  padding-left: 18px;
+  padding-right: 38px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.detail-page .detail .dog-kind .small-main b {
+  display: inline-block;
+  width: 11px;
+  height: 7px;
+  background: url(../../dist/image/bg2.png) no-repeat -38px -1258px;
+}
+
+.detail-page .detail .dog-kind .small-main ul {
+  position: absolute;
+  left: 18px;
+  top: 60px;
+  border: 1px solid #e4e4e4;
+}
+
+.detail-page .detail .dog-kind .small-main ul li {
+  display: list-item;
+  line-height: 22px;
+  height: 22px;
+  overflow: hidden;
+  border-bottom: 1px dashed #eee;
+}
+
+.detail-page .detail .dog-kind .small-main ul li a {
+  color: #666666;
+  font-size: 12px;
+}
+
+.detail-page .detail .dog-kind label {
+  margin: 0 12px;
+  display: inline-block;
+  width: 6px;
+  height: 10px;
+  background: url(../../dist/image/bg2.png) no-repeat -38px -1265px;
+}
+
+.detail-page .detail .dog-kind .small-food {
+  display: inline-block;
+  width: 105px;
+  height: 26px;
+  color: #666666;
+  border: 1px solid #e4e4e4;
+}
+
+.detail-page .detail .dog-kind .small-food span {
+  padding-left: 18px;
+  padding-right: 38px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.detail-page .detail .dog-kind .small-food b {
+  display: inline-block;
+  width: 11px;
+  height: 7px;
+  background: url(../../dist/image/bg2.png) no-repeat -38px -1258px;
+}
+
+.detail-page .detail .dog-kind .small-food ul {
+  position: absolute;
+  left: 18px;
+  top: 60px;
+  border: 1px solid #e4e4e4;
+}
+
+.detail-page .detail .dog-kind .small-food ul li {
+  display: list-item;
+  line-height: 22px;
+  height: 22px;
+  overflow: hidden;
+  border-bottom: 1px dashed #eee;
+}
+
+.detail-page .detail .dog-kind .small-food ul li a {
+  color: #666666;
+  font-size: 12px;
+}
+
+.detail-page .detail .dog-kind label {
+  margin: 0 12px;
+  display: inline-block;
+  width: 6px;
+  height: 10px;
+  background: url(../../dist/image/bg2.png) no-repeat -38px -1265px;
+}
+
+.detail-page .detail .dog-kind i {
+  font-size: 12px;
+  color: #444444;
+  font-style: normal;
+}
+
+.detail-page .detail .dog-detail-second {
+  width: 1200px;
+  overflow: hidden;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare {
+  width: 450px;
+  overflow: hidden;
+  float: left;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih {
+  width: 450px;
+  overflow: hidden;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih .dog-det {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih .dog-det a img {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih .dog-det .float-block-1 {
+  display: none;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background: gray;
+  opacity: 0.7;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih .dog-det .mask-1 {
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: black;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih .big-image {
+  width: 350px;
+  height: 350px;
+  border: 1px solid gray;
+  background: red;
+  position: absolute;
+  left: 530px;
+  top: 250px;
+  z-index: 30001;
+  overflow: hidden;
+  display: none;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih .big-image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih1 {
+  display: none;
+  width: 450px;
+  overflow: hidden;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih1 .dog-det {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih1 .dog-det a img {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih1 .dog-det .float-block-1 {
+  display: none;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background: gray;
+  opacity: 0.7;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih1 .dog-det .mask-1 {
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: black;
+  opacity: 0;
+  left: 100px;
+  top: 0;
+  z-index: 1000;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih1 .big-image {
+  width: 350px;
+  height: 350px;
+  border: 1px solid gray;
+  background: red;
+  position: absolute;
+  left: 530px;
+  top: 250px;
+  z-index: 30001;
+  overflow: hidden;
+  display: none;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih1 .big-image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih2 {
+  display: none;
+  width: 450px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih2 .dog-det {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih2 .dog-det a img {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih2 .dog-det .float-block-1 {
+  display: none;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background: gray;
+  opacity: 0.7;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih2 .dog-det .mask-1 {
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: black;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih2 .big-image {
+  width: 350px;
+  height: 350px;
+  border: 1px solid gray;
+  background: red;
+  position: absolute;
+  left: 530px;
+  top: 250px;
+  z-index: 30001;
+  overflow: hidden;
+  display: none;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih2 .big-image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih3 {
+  width: 450px;
+  display: none;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih3 .dog-det {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih3 .dog-det a img {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih3 .dog-det .float-block-1 {
+  display: none;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background: gray;
+  opacity: 0.7;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih3 .dog-det .mask-1 {
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: black;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih3 .big-image {
+  width: 350px;
+  height: 350px;
+  border: 1px solid gray;
+  background: red;
+  position: absolute;
+  left: 530px;
+  top: 250px;
+  z-index: 30001;
+  overflow: hidden;
+  display: none;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .pih3 .big-image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .small-image-all {
+  margin: 0 auto;
+  width: 389px;
+  height: 84px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .small-image-all .left-page {
+  width: 17px;
+  height: 72px;
+  cursor: pointer;
+  border: 1px solid #e4e4e4;
+  float: left;
+  position: relative;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .small-image-all .left-page span {
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left: red;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .small-image-all .guai-img .ul-img {
+  display: block;
+  width: 330px;
+  height: 74px;
+  float: left;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .small-image-all .guai-img .ul-img li {
+  border: 1px solid #e4e4e4;
+  width: 72px;
+  height: 72px;
+  float: left;
+  margin-left: 8px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .small-image-all .guai-img .ul-img li a {
+  display: block;
+  width: 72px;
+  height: 72px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .small-image-all .guai-img .ul-img li a img {
+  display: block;
+  width: 72px;
+  height: 72px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .small-image-all .right-page {
+  width: 17px;
+  height: 72px;
+  cursor: pointer;
+  border: 1px solid #e4e4e4;
+  float: left;
+  position: relative;
+  margin-left: 14px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .small-image-all .right-page span {
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left: red;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .share {
+  width: 394px;
+  height: 16px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .share .share-left {
+  float: left;
+  font-size: 12px;
+  color: #999999;
+  margin-right: 188px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .share .share-right {
+  float: left;
+  font-size: 12px;
+  color: #444444;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .share .share-right .share-content i {
+  display: inline-block;
+  width: 12px;
+  height: 15px;
+  background: url(../../dist/image/xqico.png) no-repeat -9px -329px;
+}
+
+.detail-page .detail .dog-detail-second .dog-compare .share .share-right .share-content-1 .i_1 {
+  display: inline-block;
+  width: 12px;
+  height: 15px;
+  background: url(../../dist/image/xqico.png) no-repeat -33px -361px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club {
+  width: 741px;
+  overflow: hidden;
+  background: #fcfcfc;
+  cursor: pointer;
+}
+
+.detail-page .detail .dog-detail-second .dog-club h3 {
+  color: #333333;
+  padding-top: 44px;
+  padding-left: 41px;
+  font-size: 18px;
+  padding-bottom: 18px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price {
+  margin-left: 40px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-club {
+  width: 667px;
+  height: 63px;
+  background: url(../../dist/image/651d7a597b1696b0d77079d499e8cb69.png) no-repeat;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-club .ft16 {
+  float: left;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 63px;
+  padding-left: 18px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-club .ft-end .time-end-ten {
+  line-height: 63px;
+  color: #ffffff;
+  font-size: 12px;
+  padding-left: 216px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-club .ft-end .time-end-ten i {
+  font-style: normal;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-club .ft-end .timenum {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-club .ft-end .timenum .time1-1 {
+  color: black;
+  font-weight: 600;
+  border-radius: 50%;
+  font-style: normal;
+  display: block;
+  display: inline-block;
+  line-height: 25px;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-club .ft-end .timenum .time-zi {
+  display: inline-block;
+  font-style: normal;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-price-1 {
+  width: 667px;
+  height: 55px;
+  color: #999999;
+  font-size: 14px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-price-1 .bit-price {
+  padding-left: 20px;
+  line-height: 55px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-price-1 .really-price {
+  color: #e3393c;
+  font-size: 16px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-price-1 .number-price {
+  color: #e3393c;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .epet-price .epet-price-1 .c333 {
+  color: #333333;
+  font-size: 12px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .cuXiao {
+  margin-left: 40px;
+  padding-top: 23px;
+  padding-bottom: 28px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .cuXiao .discount {
+  color: #333333;
+  font-size: 14px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .cuXiao .cred {
+  display: inline-block;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .cuXiao .cred a {
+  color: #333333;
+  font-size: 12px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .cuXiao .cred a b {
+  color: #ffffff;
+  width: 55px;
+  height: 16px;
+  background: #e54649;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .cuXiao .cred a strong {
+  color: #e54649;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail {
+  margin-left: 40px;
+  width: 666px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  border-top: 1px dashed #dddddd;
+  border-bottom: 1px dashed #dddddd;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail .clearfix .ats-style {
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 23px;
+  margin-bottom: 17px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail .clearfix .ats-style .c999 {
+  color: #999999;
+  font-size: 12px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail .clearfix .ats-style .ce54 {
+  color: #e54649;
+  margin-right: 24px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail .clearfix .ats-style .c78b300 {
+  color: #c78b30;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail .quality .sure {
+  display: block;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail .quality .sure li {
+  float: left;
+  width: 75px;
+  height: 20px;
+  padding-right: 14px;
+  position: relative;
+  border-right: 1px solid #d7d7d7;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail .quality .sure li:nth-child(2) {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail .quality .sure li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .price-detail .quality .sure li span {
+  position: absolute;
+  left: 24px;
+  top: 3px;
+  color: black;
+  font-size: 12px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .gun-1 {
+  margin-left: 40px;
+  color: #999999;
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .gun-1 .same {
+  color: #999999;
+  font-size: 14px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .gun-1 .same .same1 {
+  display: inline-block;
+  width: 41px;
+  height: 24px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  line-height: 24px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .gun-1 .same .same1 a {
+  color: #333333;
+  position: relative;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .gun-1 .same .same1 a .pict {
+  display: block;
+  width: 17px;
+  height: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10000;
+  background: url(../../dist/image/goods-select.png) no-repeat 0px 0px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .gun-1 span {
+  color: #999999;
+  font-size: 14px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .gun-1 i {
+  color: #444444;
+  font-style: normal;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .gh {
+  margin-bottom: 25px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club #gun1 {
+  width: 670px;
+  border-top: 1px dashed #e4e4e4;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .suan {
+  display: inline-block;
+  width: 88px;
+  height: 34px;
+  border: 1px solid #e4e4e4;
+  text-align: center;
+  color: #000000;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .suan .jiahao {
+  display: inline-block;
+  width: 15px;
+  height: 32px;
+  background: #f3f3f3;
+  margin: 1px;
+  font-style: normal;
+  line-height: 32px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .suan a {
+  display: inline-block;
+  width: 52px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #f3f3f3;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .suan .jianhao {
+  font-style: normal;
+  display: inline-block;
+  width: 15px;
+  height: 32px;
+  line-height: 32px;
+  background: #f3f3f3;
+  margin: 1px;
+}
+
+.detail-page .detail .dog-detail-second .dog-club em {
+  display: inline-block;
+  margin-left: 3px;
+  color: #000000;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.detail-page .detail .dog-detail-second .dog-club .shop-carts {
+  margin-top: 33px;
+  margin-left: 40px;
+  color: white;
+  display: block;
+  width: 190px;
+  height: 56px;
+  background: #78b300;
+  line-height: 56px;
+  text-align: center;
+  border-radius: 5px;
+}

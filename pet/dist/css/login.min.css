@@ -1,0 +1,277 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 106;
+  background: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask .login-block {
+  padding-top: 40px;
+  padding-bottom: 63px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 325px;
+  height: 315px;
+  background: #ffffff;
+}
+
+.mask .login-block .login-method {
+  width: 325px;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.mask .login-block .login-method h3 {
+  height: 25px;
+  border-right: 1px solid #e4e4e4;
+  color: #333333;
+  font-size: 18px;
+  padding-right: 18px;
+  float: left;
+}
+
+.mask .login-block .login-method h4 {
+  color: #333333;
+  font-size: 18px;
+  float: left;
+  margin-left: 45px;
+}
+
+.mask .login-block .login-content {
+  width: 320px;
+  height: 106px;
+  display: none;
+}
+
+.mask .login-block .login-content .p1 {
+  width: 318px;
+  height: 40px;
+  border: 1px solid #e4e4e4;
+  border-radius: 18px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.mask .login-block .login-content .p1 .user {
+  position: absolute;
+  left: 17px;
+  top: 12px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../../dist/image/newico.png) no-repeat 0 -60px;
+}
+
+.mask .login-block .login-content .p1 input {
+  position: absolute;
+  left: 46px;
+  top: 10px;
+  width: 238px;
+  text-indent: 14px;
+  height: 23px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #e4e4e4;
+}
+
+.mask .login-block .login-content .p2 {
+  width: 318px;
+  height: 40px;
+  border: 1px solid #e4e4e4;
+  border-radius: 18px;
+  position: relative;
+}
+
+.mask .login-block .login-content .p2 .password {
+  position: absolute;
+  left: 17px;
+  top: 12px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../../dist/image/newico.png) no-repeat 0 -40px;
+}
+
+.mask .login-block .login-content .p2 input {
+  position: absolute;
+  left: 46px;
+  top: 10px;
+  width: 220px;
+  text-indent: 14px;
+  height: 23px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #e4e4e4;
+}
+
+.mask .login-block .login-content .p2 .rember {
+  width: 100px;
+  height: 23px;
+  border-left: 1px solid #e4e4e4;
+  display: block;
+  padding-left: 20px;
+  position: absolute;
+  left: 210px;
+  color: #999999;
+  font-size: 12px;
+  top: 12px;
+}
+
+.mask .login-block .login-content-one {
+  display: block;
+  width: 320px;
+  height: 106px;
+}
+
+.mask .login-block .login-content-one .p1 {
+  width: 318px;
+  height: 40px;
+  border: 1px solid #e4e4e4;
+  border-radius: 18px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.mask .login-block .login-content-one .p1 .user {
+  position: absolute;
+  left: 17px;
+  top: 12px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../../dist/image/newico.png) no-repeat 0 -60px;
+}
+
+.mask .login-block .login-content-one .p1 input {
+  position: absolute;
+  left: 46px;
+  top: 10px;
+  width: 238px;
+  text-indent: 14px;
+  height: 23px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #e4e4e4;
+}
+
+.mask .login-block .login-content-one .p2 {
+  width: 318px;
+  height: 40px;
+  border: 1px solid #e4e4e4;
+  border-radius: 18px;
+  position: relative;
+}
+
+.mask .login-block .login-content-one .p2 .password {
+  position: absolute;
+  left: 230px;
+  top: 10px;
+  display: block;
+  color: red;
+  font-size: 14px;
+}
+
+.mask .login-block .login-content-one .p2 input {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 220px;
+  text-indent: 14px;
+  height: 23px;
+  outline: none;
+  border: none;
+}
+
+.mask .login-block .login-content-one .p2 .rember {
+  width: 100px;
+  height: 23px;
+  border-left: 1px solid #e4e4e4;
+  display: block;
+  padding-left: 20px;
+  position: absolute;
+  left: 210px;
+  color: #999999;
+  font-size: 12px;
+  top: 12px;
+}
+
+.mask .login-block .login {
+  width: 318px;
+  height: 40px;
+  border-radius: 18px;
+  background-color: #999999;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.mask .login-block .login-last {
+  margin-top: 50px;
+}
+
+.mask .login-block .login-last .login-left a {
+  display: block;
+  float: left;
+  width: 37px;
+  height: 37px;
+}
+
+.mask .login-block .login-last .login-left a:nth-child(1) {
+  background: url(../../dist/image/newico2.png) no-repeat 0px 0px;
+}
+
+.mask .login-block .login-last .login-left a:nth-child(2) {
+  background: url(../../dist/image/newico2.png) no-repeat -43px 0px;
+}
+
+.mask .login-block .login-last .login-left a:nth-child(3) {
+  background: url(../../dist/image/newico2.png) no-repeat -87px 0px;
+}
+
+.mask .login-block .login-last .login-right a {
+  display: block;
+  float: left;
+  height: 37px;
+  line-height: 37px;
+  color: #444444;
+  font-size: 14px;
+}
+
+.mask .login-block .login-last .login-right a:nth-child(1) {
+  margin-left: 54px;
+  margin-right: 10px;
+}
+
+.mask .login-block .login-last .login-right a:nth-child(2) {
+  color: #999999;
+}

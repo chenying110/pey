@@ -1,0 +1,3588 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+.div-header {
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.header {
+  width: 1200px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.left-header {
+  float: left;
+}
+
+.left-header li {
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.left-header li:nth-child(2) {
+  margin-right: 12px;
+}
+
+.left-header li:nth-child(2) a:hover {
+  color: blue;
+}
+
+.left-header li:nth-child(1) span {
+  display: inline-block;
+  margin-top: 6px;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/epetbrand.png) no-repeat 0px 3px;
+}
+
+.left-header li:nth-child(5) span {
+  display: inline-block;
+  width: 14px;
+  height: 7px;
+  background: url(../../dist/image/xqico.png) no-repeat -5px -36px;
+}
+
+.left-header li:nth-child(6) span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../dist/image/bg.png) no-repeat -9px -428px;
+}
+
+.left-header li:nth-child(7) {
+  margin-left: 8px;
+}
+
+.left-header li:nth-child(7) a:hover {
+  color: orange;
+}
+
+.left-header a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #444444;
+  line-height: 30px;
+}
+
+.list-header p {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #000000;
+}
+
+.list-header b {
+  font-size: 14px;
+  font-weight: normal;
+  color: #666666;
+}
+
+.right-header {
+  float: right;
+}
+
+.right-header li {
+  float: left;
+  list-style: none;
+  line-height: 30px;
+  margin-right: 12px;
+}
+
+.right-header li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #444444;
+}
+
+.right-header ul li a:hover {
+  color: blue;
+}
+
+.right-header ul li:nth-child(3) span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/bg.png) no-repeat -289px -44px;
+}
+
+.right-header ul li:nth-child(4) span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/bg.png) no-repeat -312px -44px;
+}
+
+.right-header ul li:nth-child(5) span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/bg.png) no-repeat -354px -45px;
+}
+
+.right-header ul li:nth-child(6) span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../../dist/image/bg.png) no-repeat -335px -45px;
+}
+
+.right-header ul li:nth-child(7) a {
+  color: #ff0000;
+}
+
+.right-header ul li:nth-child(7) a:hover {
+  color: blue;
+}
+
+#inner {
+  position: relative;
+}
+
+#inner ul {
+  position: absolute;
+  left: 0px;
+  top: 28px;
+  width: 80px;
+  height: 95px;
+  background: #ffffff;
+  border: 1px solid gray;
+  border-top: none;
+  display: none;
+}
+
+#inner ul li {
+  height: 16px;
+  width: 80px;
+}
+
+#inner ul li a {
+  color: #444444;
+  font-size: 12px;
+}
+
+/* search */
+.head-newyear {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+
+.head-newyear .max {
+  width: 1200px;
+  height: 110px;
+  margin-top: 20px;
+}
+
+.head-newyear .max h5 {
+  display: block;
+  width: 268px;
+  height: 94px;
+  float: left;
+  background: url(../image/epet-logo.png) no-repeat 0 -12px;
+}
+
+.head-newyear .max .search {
+  float: left;
+  display: block;
+  width: 496px;
+  height: 72px;
+  margin-left: 60px;
+}
+
+.head-newyear .max .search .search-form {
+  float: left;
+  margin-top: 16px;
+  margin-bottom: 13px;
+}
+
+.head-newyear .max .search .search-form .input-1 {
+  display: block;
+  width: 402px;
+  height: 31px;
+  border: 1px solid green;
+  font-size: 14px;
+  float: left;
+  outline: none;
+  line-height: 31px;
+  text-indent: 10px;
+}
+
+.head-newyear .max .search .search-form .input-2 {
+  display: block;
+  float: left;
+  width: 70px;
+  height: 33px;
+  line-height: 36px;
+  background: #459d36;
+  text-align: center;
+  color: #ffffff;
+}
+
+.head-newyear .max .search .keywords {
+  width: 350px;
+  height: 15px;
+}
+
+.head-newyear .max .search .keywords a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 12px;
+  margin: 0 4px;
+}
+
+.head-newyear .max .search .keywords a:first-child {
+  margin-left: 0;
+}
+
+.head-newyear .max .search .keywords a:nth-child(2) {
+  color: red;
+}
+
+.head-newyear .max .shop {
+  width: 130px;
+  height: 40px;
+  float: right;
+  background: url(../../dist/image/shopping-cart.gif) no-repeat;
+  margin-top: 15px;
+  position: relative;
+}
+
+.head-newyear .max .shop a {
+  color: #666666;
+  font-size: 12px;
+  position: absolute;
+  left: 53px;
+  top: 10px;
+}
+
+.head-newyear .max .shop a em {
+  font-style: normal;
+}
+
+/* nav*/
+.nav {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+
+.nav .wmax {
+  width: 228px;
+  height: 36px;
+  float: left;
+}
+
+.nav .wmax .maincates {
+  width: 228px;
+  height: 36px;
+}
+
+.nav .wmax .maincates .epet-type-1 {
+  display: block;
+  width: 112px;
+  height: 34px;
+  border: 1px solid #e1e1e1;
+  float: left;
+  background: orange;
+  line-height: 34px;
+}
+
+.nav .wmax .maincates .epet-type-1 a {
+  display: block;
+  float: left;
+  margin-left: 29px;
+  color: #ffffff;
+}
+
+.nav .wmax .maincates .epet-type-1 b {
+  width: 17px;
+  height: 15px;
+  display: block;
+  float: left;
+  margin-top: 12px;
+  margin-left: 3px;
+  background: url(../../dist/image/bg2.png) no-repeat 0px -1258px;
+}
+
+.nav .wmax .maincates .epet-type-2 {
+  display: block;
+  float: left;
+  width: 112px;
+  height: 34px;
+  line-height: 34px;
+  background: orange;
+  border: 1px solid #e1e1e1;
+}
+
+.nav .wmax .maincates .epet-type-2 a {
+  display: block;
+  float: left;
+  margin-left: 15px;
+  color: #444444;
+}
+
+.nav .wmax .maincates .epet-type-2 b {
+  width: 17px;
+  height: 13px;
+  display: block;
+  float: left;
+  margin-left: 4px;
+  margin-top: 12px;
+  background: url(../../dist/image/bg2.png) no-repeat 0px -1273px;
+}
+
+.nav .menus {
+  height: 36px;
+  display: block;
+  float: left;
+}
+
+.nav .menus li {
+  float: left;
+  width: 90px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 25px;
+  line-height: 20px;
+}
+
+.nav .menus li:nth-child(3) {
+  width: 80px;
+  height: 20px;
+}
+
+.nav .menus li i {
+  display: block;
+  background: url(../../dist/image/bg2.png) no-repeat -35px -1278px;
+  width: 13px;
+  height: 20px;
+  float: left;
+}
+
+.nav .menus li a {
+  display: block;
+  float: left;
+  color: #000000;
+  margin-left: 3px;
+}
+
+.nav .menus li a:hover {
+  color: green;
+}
+
+/*banner*/
+.banner {
+  width: 100%;
+}
+
+.banner .slider {
+  margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.banner .slider #wrap {
+  width: 1200px;
+  height: 360px;
+}
+
+.banner .slider #wrap .banner-left {
+  width: 228px;
+  height: 360px;
+  background: red;
+  float: left;
+}
+
+.banner .slider #wrap #pic {
+  display: block;
+  width: 770px;
+  height: 360px;
+  float: left;
+  position: relative;
+}
+
+.banner .slider #wrap #pic li {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner .slider #wrap #pic li img {
+  width: 770px;
+  height: 360px;
+  display: block;
+}
+
+.banner .slider #wrap #num {
+  display: block;
+  position: absolute;
+  left: 600px;
+  top: 510px;
+  z-index: 4;
+  width: 200px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.banner .slider #wrap #num #act {
+  display: inline-block;
+  width: 22px;
+  background: #999999;
+  height: 22px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+
+.banner .slider #wrap .banner-right {
+  width: 200px;
+  height: 360px;
+  float: left;
+  position: relative;
+  background: red;
+}
+
+.banner .slider #wrap .banner-right a {
+  display: block;
+  width: 200px;
+  height: 120px;
+  font-size: 0;
+}
+
+.banner .slider #wrap .banner-right a img {
+  display: block;
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/*food*/
+.renew {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.renew .epetFoodBlock {
+  width: 1200px;
+}
+
+.renew .epetFoodBlock .foodHead {
+  width: 1200px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.renew .epetFoodBlock .foodHead i {
+  display: block;
+  float: left;
+  width: 23px;
+  height: 26px;
+  background: url(../../dist/image/index-ico.png) no-repeat -12px -226px;
+}
+
+.renew .epetFoodBlock .foodHead h3 {
+  float: left;
+  color: #333333;
+  font-size: 20px;
+}
+
+.renew .epetFoodBlock .foodHead ul {
+  display: block;
+  float: right;
+  border: 1px solid #e5e5e5;
+}
+
+.renew .epetFoodBlock .foodHead ul li {
+  float: left;
+  width: 86px;
+  height: 33px;
+  text-align: center;
+}
+
+.renew .epetFoodBlock .foodHead ul li a {
+  color: #444444;
+  font-size: 14px;
+  line-height: 33px;
+}
+
+.renew .epetFoodBlock .foodHead ul li a:hover {
+  color: green;
+}
+
+.renew .epetFoodBlock .foodHead ul li:nth-child(1) {
+  width: 60px;
+}
+
+.renew .epetFoodBlock .foodHead ul li span {
+  color: #e7e7e7;
+  margin-left: 17px;
+}
+
+.renew .epetFoodBlock .shark {
+  width: 1200px;
+  overflow: hidden;
+}
+
+.renew .epetFoodBlock .shark .shark-left {
+  width: 328px;
+  height: 477px;
+  float: left;
+  position: relative;
+}
+
+.renew .epetFoodBlock .shark .shark-left .shark-bottom {
+  width: 330px;
+  height: 178px;
+  background: #f5f5f5;
+  opacity: 0.8;
+  position: absolute;
+  left: 0px;
+  top: 299px;
+}
+
+.renew .epetFoodBlock .shark .shark-left .shark-bottom .one-line {
+  width: 290px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.renew .epetFoodBlock .shark .shark-left .shark-bottom .one-line span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.renew .epetFoodBlock .shark .shark-left .shark-bottom .one-line b {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url(../../dist/image/index-ico.png) no-repeat -114px -168px;
+}
+
+.renew .epetFoodBlock .shark .shark-left .shark-bottom .one-line h2 {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+}
+
+.renew .epetFoodBlock .shark .shark-left .shark-bottom ul {
+  display: block;
+  margin-top: 28px;
+}
+
+.renew .epetFoodBlock .shark .shark-left .shark-bottom ul li {
+  margin-left: 16px;
+  float: left;
+  width: 86px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.renew .epetFoodBlock .shark .shark-left .shark-bottom ul li a {
+  color: #444444;
+  font-size: 12px;
+}
+
+.renew .epetFoodBlock .shark .all {
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright {
+  width: 872px;
+  height: 476px;
+  overflow: hidden;
+  float: left;
+  display: none;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one {
+  width: 872px;
+  height: 300px;
+  float: left;
+  border: 1px solid #e4e4e4;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .shark-first {
+  width: 389px;
+  height: 299px;
+  float: left;
+  position: relative;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .shark-first a .add-font {
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .shark-first a .add-font .font-first {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .shark-first a .add-font .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .shark-first a img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur {
+  float: left;
+  width: 482px;
+  height: 300px;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge {
+  width: 479px;
+  height: 149px;
+  position: relative;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner {
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .dog-right-third {
+  width: 871px;
+  height: 176px;
+  float: left;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan {
+  width: 289px;
+  height: 176px;
+  float: left;
+  position: relative;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality {
+  width: 160px;
+  height: 19px;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew .epetFoodBlock .shark .all .hover {
+  display: block;
+}
+
+.renew .epetFoodBlock .shark .all .produ {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew .epetFoodBlock .shark .all .produ .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 {
+  display: block;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew .epetFoodBlock .dog-three {
+  width: 1200px;
+  height: 67px;
+}
+
+.renew .epetFoodBlock .dog-three ul {
+  width: 1200px;
+  height: 67px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+}
+
+.renew .epetFoodBlock .dog-three ul li {
+  display: block;
+  float: left;
+  width: 147px;
+  height: 64px;
+  border: 1px solid #e4e4e4;
+}
+
+.renew .epetFoodBlock .dog-three ul li img {
+  display: block;
+  width: 100px;
+  height: 48px;
+  margin: 9px auto;
+}
+
+.renew-1 {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.renew-1 .epetFoodBlock {
+  width: 1200px;
+}
+
+.renew-1 .epetFoodBlock .foodHead {
+  width: 1200px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.renew-1 .epetFoodBlock .foodHead i {
+  display: block;
+  float: left;
+  width: 26px;
+  height: 26px;
+  background: url(../../dist/image/cate_6.png) no-repeat 0px 0px;
+}
+
+.renew-1 .epetFoodBlock .foodHead h3 {
+  float: left;
+  color: #333333;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.renew-1 .epetFoodBlock .foodHead ul {
+  display: block;
+  float: right;
+  border: 1px solid #e5e5e5;
+}
+
+.renew-1 .epetFoodBlock .foodHead ul li {
+  float: left;
+  width: 86px;
+  height: 33px;
+  text-align: center;
+}
+
+.renew-1 .epetFoodBlock .foodHead ul li:nth-child(1) {
+  width: 60px;
+}
+
+.renew-1 .epetFoodBlock .foodHead ul li a {
+  color: #444444;
+  font-size: 14px;
+  line-height: 33px;
+}
+
+.renew-1 .epetFoodBlock .foodHead ul li span {
+  color: #e7e7e7;
+  margin-left: 17px;
+}
+
+.renew-1 .epetFoodBlock .shark {
+  width: 1200px;
+  overflow: hidden;
+}
+
+.renew-1 .epetFoodBlock .shark .shark-left {
+  width: 328px;
+  height: 477px;
+  float: left;
+  position: relative;
+}
+
+.renew-1 .epetFoodBlock .shark .shark-left .shark-bottom {
+  width: 330px;
+  height: 178px;
+  background: #f5f5f5;
+  opacity: 0.8;
+  position: absolute;
+  left: 0px;
+  top: 299px;
+}
+
+.renew-1 .epetFoodBlock .shark .shark-left .shark-bottom .one-line {
+  width: 290px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.renew-1 .epetFoodBlock .shark .shark-left .shark-bottom .one-line span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.renew-1 .epetFoodBlock .shark .shark-left .shark-bottom .one-line b {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url(../../dist/image/index-ico.png) no-repeat -114px -168px;
+}
+
+.renew-1 .epetFoodBlock .shark .shark-left .shark-bottom .one-line h2 {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+}
+
+.renew-1 .epetFoodBlock .shark .shark-left .shark-bottom ul {
+  display: block;
+  margin-top: 28px;
+}
+
+.renew-1 .epetFoodBlock .shark .shark-left .shark-bottom ul li {
+  margin-left: 16px;
+  float: left;
+  width: 86px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.renew-1 .epetFoodBlock .shark .shark-left .shark-bottom ul li a {
+  color: #444444;
+  font-size: 12px;
+}
+
+.renew-1 .epetFoodBlock .shark .all {
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright {
+  width: 872px;
+  height: 476px;
+  overflow: hidden;
+  display: none;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one {
+  width: 872px;
+  height: 300px;
+  float: left;
+  border: 1px solid #e4e4e4;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first {
+  width: 389px;
+  height: 299px;
+  float: left;
+  position: relative;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font {
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font .font-first {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first img {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur {
+  float: left;
+  width: 482px;
+  height: 300px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge {
+  width: 479px;
+  height: 149px;
+  position: relative;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner {
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .dog-right-third {
+  width: 871px;
+  height: 176px;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan {
+  width: 289px;
+  height: 176px;
+  float: left;
+  position: relative;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality {
+  width: 160px;
+  height: 19px;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ {
+  display: block;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-1 .epetFoodBlock .shark .all .produ .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-1 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-1 .epetFoodBlock .dog-three {
+  width: 1200px;
+  height: 67px;
+}
+
+.renew-1 .epetFoodBlock .dog-three ul {
+  width: 1200px;
+  height: 67px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+}
+
+.renew-1 .epetFoodBlock .dog-three ul li {
+  display: block;
+  float: left;
+  width: 147px;
+  height: 64px;
+  border: 1px solid #e4e4e4;
+}
+
+.renew-1 .epetFoodBlock .dog-three ul li img {
+  display: block;
+  width: 100px;
+  height: 48px;
+  margin: 9px auto;
+}
+
+.renew-2 {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.renew-2 .epetFoodBlock {
+  width: 1200px;
+}
+
+.renew-2 .epetFoodBlock .foodHead {
+  width: 1200px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.renew-2 .epetFoodBlock .foodHead i {
+  display: block;
+  float: left;
+  width: 26px;
+  height: 26px;
+  background: url(../../dist/image/cate_49.png) no-repeat 0px 0px;
+}
+
+.renew-2 .epetFoodBlock .foodHead h3 {
+  float: left;
+  color: #333333;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.renew-2 .epetFoodBlock .foodHead ul {
+  display: block;
+  float: right;
+  border: 1px solid #e5e5e5;
+}
+
+.renew-2 .epetFoodBlock .foodHead ul li {
+  float: left;
+  width: 86px;
+  height: 33px;
+  text-align: center;
+}
+
+.renew-2 .epetFoodBlock .foodHead ul li:nth-child(1) {
+  width: 60px;
+}
+
+.renew-2 .epetFoodBlock .foodHead ul li a {
+  color: #444444;
+  font-size: 14px;
+  line-height: 33px;
+}
+
+.renew-2 .epetFoodBlock .foodHead ul li span {
+  color: #e7e7e7;
+  margin-left: 17px;
+}
+
+.renew-2 .epetFoodBlock .shark {
+  width: 1200px;
+  overflow: hidden;
+}
+
+.renew-2 .epetFoodBlock .shark .shark-left {
+  width: 328px;
+  height: 477px;
+  float: left;
+  position: relative;
+}
+
+.renew-2 .epetFoodBlock .shark .shark-left .shark-bottom {
+  width: 330px;
+  height: 178px;
+  background: #f5f5f5;
+  opacity: 0.8;
+  position: absolute;
+  left: 0px;
+  top: 299px;
+}
+
+.renew-2 .epetFoodBlock .shark .shark-left .shark-bottom .one-line {
+  width: 290px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.renew-2 .epetFoodBlock .shark .shark-left .shark-bottom .one-line span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.renew-2 .epetFoodBlock .shark .shark-left .shark-bottom .one-line b {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url(../../dist/image/index-ico.png) no-repeat -114px -168px;
+}
+
+.renew-2 .epetFoodBlock .shark .shark-left .shark-bottom .one-line h2 {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+}
+
+.renew-2 .epetFoodBlock .shark .shark-left .shark-bottom ul {
+  display: block;
+  margin-top: 28px;
+}
+
+.renew-2 .epetFoodBlock .shark .shark-left .shark-bottom ul li {
+  margin-left: 16px;
+  float: left;
+  width: 86px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.renew-2 .epetFoodBlock .shark .shark-left .shark-bottom ul li a {
+  color: #444444;
+  font-size: 12px;
+}
+
+.renew-2 .epetFoodBlock .shark .all {
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright {
+  width: 872px;
+  height: 476px;
+  overflow: hidden;
+  float: left;
+  display: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one {
+  width: 872px;
+  height: 300px;
+  float: left;
+  border: 1px solid #e4e4e4;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first {
+  width: 389px;
+  height: 299px;
+  float: left;
+  position: relative;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font {
+  z-index: 100;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font .font-first {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur {
+  float: left;
+  width: 482px;
+  height: 300px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge {
+  width: 479px;
+  height: 149px;
+  position: relative;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner {
+  z-index: 100;
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .dog-right-third {
+  width: 871px;
+  height: 176px;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan {
+  width: 289px;
+  height: 176px;
+  float: left;
+  position: relative;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality {
+  width: 160px;
+  height: 19px;
+  z-index: 100;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ {
+  display: block;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-2 .epetFoodBlock .shark .all .produ .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-2 .epetFoodBlock .shark .all .product-5 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-2 .epetFoodBlock .dog-three {
+  width: 1200px;
+  height: 67px;
+}
+
+.renew-2 .epetFoodBlock .dog-three ul {
+  width: 1200px;
+  height: 67px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+}
+
+.renew-2 .epetFoodBlock .dog-three ul li {
+  display: block;
+  float: left;
+  width: 147px;
+  height: 64px;
+  border: 1px solid #e4e4e4;
+}
+
+.renew-2 .epetFoodBlock .dog-three ul li img {
+  display: block;
+  width: 100px;
+  height: 48px;
+  margin: 9px auto;
+}
+
+.renew-3 {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.renew-3 .epetFoodBlock {
+  width: 1200px;
+}
+
+.renew-3 .epetFoodBlock .foodHead {
+  width: 1200px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.renew-3 .epetFoodBlock .foodHead i {
+  display: block;
+  float: left;
+  width: 26px;
+  height: 26px;
+  background: url(../../dist/image/cate_54.png) no-repeat 0px 0px;
+}
+
+.renew-3 .epetFoodBlock .foodHead h3 {
+  float: left;
+  color: #333333;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.renew-3 .epetFoodBlock .foodHead ul {
+  display: block;
+  float: right;
+  border: 1px solid #e5e5e5;
+}
+
+.renew-3 .epetFoodBlock .foodHead ul li {
+  float: left;
+  width: 86px;
+  height: 33px;
+  text-align: center;
+}
+
+.renew-3 .epetFoodBlock .foodHead ul li:nth-child(1) {
+  width: 60px;
+}
+
+.renew-3 .epetFoodBlock .foodHead ul li a {
+  color: #444444;
+  font-size: 14px;
+  line-height: 33px;
+}
+
+.renew-3 .epetFoodBlock .foodHead ul li span {
+  color: #e7e7e7;
+  margin-left: 17px;
+}
+
+.renew-3 .epetFoodBlock .shark {
+  width: 1200px;
+  overflow: hidden;
+}
+
+.renew-3 .epetFoodBlock .shark .shark-left {
+  width: 328px;
+  height: 477px;
+  float: left;
+  position: relative;
+}
+
+.renew-3 .epetFoodBlock .shark .shark-left .shark-bottom {
+  width: 330px;
+  height: 178px;
+  background: #f5f5f5;
+  opacity: 0.8;
+  position: absolute;
+  left: 0px;
+  top: 299px;
+}
+
+.renew-3 .epetFoodBlock .shark .shark-left .shark-bottom .one-line {
+  width: 290px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.renew-3 .epetFoodBlock .shark .shark-left .shark-bottom .one-line span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.renew-3 .epetFoodBlock .shark .shark-left .shark-bottom .one-line b {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url(../../dist/image/index-ico.png) no-repeat -114px -168px;
+}
+
+.renew-3 .epetFoodBlock .shark .shark-left .shark-bottom .one-line h2 {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+}
+
+.renew-3 .epetFoodBlock .shark .shark-left .shark-bottom ul {
+  display: block;
+  margin-top: 28px;
+}
+
+.renew-3 .epetFoodBlock .shark .shark-left .shark-bottom ul li {
+  margin-left: 16px;
+  float: left;
+  width: 86px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.renew-3 .epetFoodBlock .shark .shark-left .shark-bottom ul li a {
+  color: #444444;
+  font-size: 12px;
+}
+
+.renew-3 .epetFoodBlock .shark .all {
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright {
+  width: 872px;
+  height: 476px;
+  overflow: hidden;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one {
+  width: 872px;
+  height: 300px;
+  float: left;
+  border: 1px solid #e4e4e4;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first {
+  width: 389px;
+  height: 299px;
+  float: left;
+  position: relative;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font {
+  z-index: 100;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font .font-first {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first img {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur {
+  float: left;
+  width: 482px;
+  height: 300px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge {
+  width: 479px;
+  height: 149px;
+  position: relative;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner {
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .dog-right-third {
+  width: 871px;
+  height: 176px;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan {
+  width: 289px;
+  height: 176px;
+  float: left;
+  position: relative;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality {
+  width: 160px;
+  height: 19px;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-3 .epetFoodBlock .shark .all .produ .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-3 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-3 .epetFoodBlock .dog-three {
+  width: 1200px;
+  height: 67px;
+}
+
+.renew-3 .epetFoodBlock .dog-three ul {
+  width: 1200px;
+  height: 67px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+}
+
+.renew-3 .epetFoodBlock .dog-three ul li {
+  display: block;
+  float: left;
+  width: 147px;
+  height: 64px;
+  border: 1px solid #e4e4e4;
+}
+
+.renew-3 .epetFoodBlock .dog-three ul li img {
+  display: block;
+  width: 100px;
+  height: 48px;
+  margin: 9px auto;
+}
+
+.renew-4 {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.renew-4 .epetFoodBlock {
+  width: 1200px;
+}
+
+.renew-4 .epetFoodBlock .foodHead {
+  width: 1200px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.renew-4 .epetFoodBlock .foodHead i {
+  display: block;
+  float: left;
+  width: 26px;
+  height: 26px;
+  background: url(../../dist/image/cate_54.png) no-repeat 0px 0px;
+}
+
+.renew-4 .epetFoodBlock .foodHead h3 {
+  float: left;
+  color: #333333;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.renew-4 .epetFoodBlock .foodHead ul {
+  display: block;
+  float: right;
+  border: 1px solid #e5e5e5;
+}
+
+.renew-4 .epetFoodBlock .foodHead ul li {
+  float: left;
+  width: 86px;
+  height: 33px;
+  text-align: center;
+}
+
+.renew-4 .epetFoodBlock .foodHead ul li:nth-child(1) {
+  width: 60px;
+}
+
+.renew-4 .epetFoodBlock .foodHead ul li a {
+  color: #444444;
+  font-size: 14px;
+  line-height: 33px;
+}
+
+.renew-4 .epetFoodBlock .foodHead ul li span {
+  color: #e7e7e7;
+  margin-left: 17px;
+}
+
+.renew-4 .epetFoodBlock .shark {
+  width: 1200px;
+  overflow: hidden;
+}
+
+.renew-4 .epetFoodBlock .shark .shark-left {
+  width: 328px;
+  height: 477px;
+  float: left;
+  position: relative;
+}
+
+.renew-4 .epetFoodBlock .shark .shark-left .shark-bottom {
+  width: 330px;
+  height: 178px;
+  background: #f5f5f5;
+  opacity: 0.8;
+  position: absolute;
+  left: 0px;
+  top: 299px;
+}
+
+.renew-4 .epetFoodBlock .shark .shark-left .shark-bottom .one-line {
+  width: 290px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.renew-4 .epetFoodBlock .shark .shark-left .shark-bottom .one-line span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.renew-4 .epetFoodBlock .shark .shark-left .shark-bottom .one-line b {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url(../../dist/image/index-ico.png) no-repeat -114px -168px;
+}
+
+.renew-4 .epetFoodBlock .shark .shark-left .shark-bottom .one-line h2 {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+}
+
+.renew-4 .epetFoodBlock .shark .shark-left .shark-bottom ul {
+  display: block;
+  margin-top: 28px;
+}
+
+.renew-4 .epetFoodBlock .shark .shark-left .shark-bottom ul li {
+  margin-left: 16px;
+  float: left;
+  width: 86px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.renew-4 .epetFoodBlock .shark .shark-left .shark-bottom ul li a {
+  color: #444444;
+  font-size: 12px;
+}
+
+.renew-4 .epetFoodBlock .shark .all {
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright {
+  width: 872px;
+  height: 476px;
+  overflow: hidden;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one {
+  width: 872px;
+  height: 300px;
+  float: left;
+  border: 1px solid #e4e4e4;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first {
+  width: 389px;
+  height: 299px;
+  float: left;
+  position: relative;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font {
+  z-index: 100;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font .font-first {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first .add-font .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .shark-first img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur {
+  float: left;
+  width: 482px;
+  height: 300px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge {
+  width: 479px;
+  height: 149px;
+  position: relative;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner {
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .shark-one .dog-right-pur .merge .merge-inner .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .dog-right-third {
+  width: 871px;
+  height: 176px;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan {
+  width: 289px;
+  height: 176px;
+  float: left;
+  position: relative;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality {
+  width: 160px;
+  height: 19px;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  z-index: 100;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-first {
+  color: #000;
+  font-size: 14px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .sharkright .dog-right-third .dog-right-guan .dog-abality .font-second {
+  margin-top: 12px;
+  color: #ff4400;
+  font-size: 14px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-4 .epetFoodBlock .shark .all .produ .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-1 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-2 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-3 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 {
+  display: none;
+  width: 872px;
+  height: 476px;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box {
+  width: 874px;
+  height: 476px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box .product-one {
+  width: 216px;
+  height: 238px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  float: left;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(5) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(6) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(7) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box .product-one:nth-child(8) {
+  border-bottom: none;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-img {
+  margin-top: 10px;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-img img {
+  display: block;
+  width: 138px;
+  height: 138px;
+  margin: 0 auto;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-font {
+  display: block;
+  padding-left: 7px;
+  width: 208px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 32px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.renew-4 .epetFoodBlock .shark .all .product-4 .product-box .product-one .product-price {
+  color: #dd2727;
+  margin-left: 7px;
+}
+
+.renew-4 .epetFoodBlock .dog-three {
+  width: 1200px;
+  height: 67px;
+}
+
+.renew-4 .epetFoodBlock .dog-three ul {
+  width: 1200px;
+  height: 67px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+}
+
+.renew-4 .epetFoodBlock .dog-three ul li {
+  display: block;
+  float: left;
+  width: 147px;
+  height: 64px;
+  border: 1px solid #e4e4e4;
+}
+
+.renew-4 .epetFoodBlock .dog-three ul li img {
+  display: block;
+  width: 100px;
+  height: 48px;
+  margin: 9px auto;
+}
+
+/*content*/
+.content {
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.content .footer-content {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+
+.content .footer-content .footer-top {
+  width: 1200px;
+  overflow: hidden;
+}
+
+.content .footer-content .footer-top .footer-imgs {
+  width: 1200px;
+  overflow: hidden;
+  border-bottom: 1px solid #e4e4e4;
+  padding-top: 20px;
+}
+
+.content .footer-content .footer-top .footer-imgs .clearFix {
+  display: block;
+}
+
+.content .footer-content .footer-top .footer-imgs .clearFix li {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  padding-bottom: 20px;
+  background: url(../../dist/image/logo.png) 0 0 no-repeat;
+}
+
+.content .footer-content .footer-top .footer-imgs .clearFix li:nth-child(2) {
+  background: url(../../dist/image/logo.png) 0 -162px no-repeat;
+}
+
+.content .footer-content .footer-top .footer-imgs .clearFix li:nth-child(3) {
+  background: url(../../dist/image/logo.png) 0 -242px no-repeat;
+}
+
+.content .footer-content .footer-top .footer-imgs .clearFix li:nth-child(4) {
+  background: url(../../dist/image/logo.png) 0 -82px no-repeat;
+}
+
+.content .footer-content .footer-top .footer-imgs .clearFix li:nth-child(5) {
+  background: url(../../dist/image/logo.png) 0 -322px no-repeat;
+}
+
+.content .footer-content .footer-top .footer-imgs .clearFix li:nth-child(6) {
+  background: url(../../dist/image/logo.png) 0 -402px no-repeat;
+}
+
+.content .footer-content .footer-top .footer-imgs .clearFix li a {
+  display: block;
+  float: left;
+  color: #444;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 70px;
+}
+
+.content .footer-content .footer-wrpaer {
+  width: 1200px;
+  overflow: hidden;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.content .footer-content .footer-wrpaer .footer-info {
+  width: 1200px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .footer-phone {
+  width: 500px;
+  margin-top: 28px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .footer-phone img {
+  width: 105px;
+  height: 99px;
+  display: block;
+  float: left;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .footer-phone .footer-font {
+  width: 216px;
+  height: 132px;
+  color: #666666;
+  font-size: 12px;
+  float: left;
+  margin-left: 30px;
+  margin-right: 90px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .footer-phone h3 {
+  color: #666666;
+  font-size: 12px;
+  margin-bottom: 22px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .footer-phone p {
+  color: #666666;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .footer-phone span {
+  color: #444444;
+  font-size: 12px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .pay-style .f1 {
+  float: left;
+  margin-right: 100px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .pay-style .f1 h2 {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .pay-style .f1 p {
+  margin-bottom: 12px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .pay-style .f1 p a {
+  font-size: 14px;
+  color: #444444;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .pay-style .f2 {
+  float: left;
+  margin-right: 118px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .pay-style .f2 h2 {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .pay-style .f2 p {
+  margin-bottom: 12px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .pay-style .f2 p a {
+  font-size: 14px;
+  color: #444444;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .appCode {
+  float: left;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .appCode .sale2 {
+  margin-bottom: 14px;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .appCode-1 {
+  float: right;
+}
+
+.content .footer-content .footer-wrpaer .footer-info .appCode-1 .sale2 {
+  margin-bottom: 14px;
+}
+
+.content .footer-content .wraper {
+  width: 1200px;
+  overflow: hidden;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.content .footer-content .wraper ul {
+  display: block;
+  width: 830px;
+  height: 18px;
+  margin: 0 auto;
+}
+
+.content .footer-content .wraper ul li {
+  display: block;
+  float: left;
+  line-height: 18px;
+  margin-right: 19px;
+}
+
+.content .footer-content .wraper ul li a {
+  color: #999999;
+  font-size: 12px;
+  display: block;
+  float: left;
+}
+
+.content .footer-content .wraper ul li a img {
+  display: block;
+  width: 14px;
+  height: 12px;
+  float: left;
+}
+
+.content .footer-content .suport {
+  width: 1200px;
+}
+
+.content .footer-content .suport a {
+  display: block;
+  margin-left: 5px;
+  float: left;
+}
+
+.content .footer-content .suport a:nth-child(1) {
+  margin-left: 45px;
+}
+
+.content .footer-content .suport a img {
+  display: block;
+  width: 80px;
+  height: 27px;
+}
+
+.content .footer-content .footer-copy {
+  width: 1200px;
+  overflow: hidden;
+}
+
+.content .footer-content .footer-copy p {
+  padding: 25px;
+  padding-bottom: 25px;
+  display: block;
+  width: 990px;
+  height: 14px;
+  margin: 0 auto;
+  color: #000000;
+  font-size: 12px;
+}
+
+.content .footer-content .footer-copy p a {
+  color: #444444;
+}

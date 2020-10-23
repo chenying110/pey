@@ -1,0 +1,1135 @@
+@import 'public';
+.div-header {
+    width: 100%;
+    background: #f5f5f5;
+  }
+  .header {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+  }
+  .left-header {
+    float: left;
+    li {
+      float: left;
+      list-style: none;
+      font-size: 14px;
+      line-height: 30px;
+      &:nth-child(2) {
+        margin-right: 12px;
+      }
+      &:nth-child(2) a:hover{
+        color: blue;
+      }
+      &:nth-child(1) {
+        span {
+          display: inline-block;
+          margin-top: 6px;
+          width: 14px;
+          height: 14px;
+          background: url(../../dist/image/epetbrand.png) no-repeat 0px 3px;
+        }
+      }
+      &:nth-child(5) {
+        span {
+          display: inline-block;
+          width: 14px;
+          height: 7px;
+          background: url(../../dist/image/xqico.png) no-repeat -5px -36px;
+        }
+      }
+      &:nth-child(6) {
+        span {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background: url(../../dist/image/bg.png) no-repeat -9px -428px;
+        }
+      }
+      &:nth-child(7) {
+        margin-left: 8px;
+      }
+      &:nth-child(7) a:hover{
+        color: orange;
+      }
+    }
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      color: #444444;
+      line-height: 30px;
+    }
+  }
+  .list-header {
+    p {
+      font-size: 14px;
+      margin-top: 4px;
+      color: #000000;
+    }
+    b {
+      font-size: 14px;
+      font-weight: normal;
+      color: #666666;
+    }
+  }
+  .right-header {
+    float: right;
+    li {
+      float: left;
+      list-style: none;
+      line-height: 30px;
+      margin-right: 12px;
+      a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #444444;
+      }
+    }
+    ul {
+  
+      li {
+        & a:hover{
+          color: blue;
+        }
+        &:nth-child(3) {
+          span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background: url(../../dist/image/bg.png) no-repeat -289px -44px;
+          }
+        }
+        &:nth-child(4) {
+          span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background: url(../../dist/image/bg.png) no-repeat -312px -44px;
+          }
+        }
+        &:nth-child(5) {
+          span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background: url(../../dist/image/bg.png) no-repeat -354px -45px;
+          }
+        }
+        &:nth-child(6) {
+          span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background: url(../../dist/image/bg.png) no-repeat -335px -45px;
+          }
+        }
+        &:nth-child(7) {
+          a {
+            color: #ff0000;
+          }
+        }
+        &:nth-child(7) a:hover{
+          color: blue;
+        }
+      }
+    }
+  }
+  #inner {
+    position: relative;
+    ul {
+      position: absolute;
+      left: 0px;
+      top: 28px;
+      width: 80px;
+      height: 95px;
+      background: #ffffff;
+      border: 1px solid gray;
+      border-top: none;
+      display: none;
+      li {
+        height: 16px;
+        width: 80px;
+        a {
+          color: #444444;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  /* search */
+  .head-newyear {
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+    .max {
+      width: 1200px;
+      height: 110px;
+      margin-top: 20px;
+      h5 {
+        display: block;
+        width: 268px;
+        height: 94px;
+        float: left;
+        background: url(../image/epet-logo.png) no-repeat 0 -12px;
+      }
+      .search {
+        float: left;
+        display: block;
+        width: 496px;
+        height: 72px;
+        margin-left: 60px;
+        .search-form {
+          float: left;
+          // width: 479px;
+          // height: 36px;
+          // border: 2px solid #459d36;
+          margin-top: 16px;
+          margin-bottom: 13px;
+          .input-1 {
+            display: block;
+            width: 402px;
+            height: 31px;
+            border: 1px solid green;
+            font-size: 14px;
+            float: left;
+            outline: none;
+            line-height: 31px;
+            text-indent: 10px;
+          }
+          .input-2 {
+            display: block;
+            float: left;
+            width: 70px;
+            height: 33px;
+            line-height: 36px;
+            background: #459d36;
+            text-align: center;
+            color: #ffffff;
+          }
+        }
+        .keywords {
+          width: 350px;
+          height: 15px;
+          a {
+            text-decoration: none;
+            color: #999999;
+            font-size: 12px;
+            margin: 0 4px;
+            &:first-child {
+              margin-left: 0;
+            }
+            &:nth-child(2) {
+              color: red;
+            }
+          }
+        }
+      }
+      .shop{
+        width: 130px;
+        height: 40px;
+        float: right;
+        background: url(../../dist/image/shopping-cart.gif) no-repeat;
+        margin-top: 15px;
+        position: relative;
+        a{
+          color: #666666;
+          font-size: 12px;
+          position: absolute;
+          left: 53px;
+          top: 10px;
+          em{
+            font-style: normal;
+          }
+        }
+      }
+    }
+  }
+  /* nav*/
+  .nav{
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+    .wmax{
+      width: 228px;
+      height: 36px;
+      float: left;
+      .maincates{
+        width: 228px;
+        height: 36px;
+        .epet-type-1{
+          display: block;
+          width: 112px;
+          height: 34px;
+          border: 1px solid #e1e1e1;
+          float: left;
+          background: orange;
+          line-height: 34px;
+          a{
+            display: block;
+            float: left;
+            margin-left: 29px;
+            color: #ffffff;
+          }
+          b{
+            width: 17px;
+            height: 15px;
+            display: block;
+            float: left;
+            margin-top: 12px;
+            margin-left: 3px;
+            background: url(../../dist/image/bg2.png) no-repeat 0px -1258px;
+          }
+        }
+        .epet-type-2{
+          display:block;
+          float: left;
+          width: 112px;
+          height: 34px;
+          line-height: 34px;
+          background: orange;
+          border: 1px solid #e1e1e1;
+          a{
+            display: block;
+            float: left;
+            margin-left: 15px;
+            color: #444444;
+          }
+          b{
+            width: 17px;
+            height: 13px;
+            display: block;
+            float: left;
+            margin-left: 4px;
+            margin-top: 12px;
+            background: url(../../dist/image/bg2.png) no-repeat 0px -1273px;
+          }
+        }
+  
+      }
+    }
+    .menus{
+      height: 36px;
+      display: block;
+      float: left;
+      li{
+        float: left;
+        width: 90px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 25px;
+        line-height: 20px;
+        &:nth-child(3){
+          width: 80px;
+          height: 20px;
+        }
+        i{
+          display: block;
+          background: url(../../dist/image/bg2.png) no-repeat -35px -1278px;
+          width: 13px;
+          height: 20px;
+          float: left;
+          // float: left;
+        }
+        a{
+          display: block;
+          float: left;
+          color: #000000;
+          margin-left: 3px;
+          &:hover{
+            color: green;
+          }
+        }
+      }
+    }
+  }
+/*detail*/
+.detail-page{
+    width: 100%;
+    border-top: 2px solid green;
+    .detail{
+        width: 1200px;
+        overflow: hidden;
+        margin: 0 auto;
+
+        .dog-kind{
+            width: 1200px;
+            overflow: hidden;
+            padding-top: 10px;
+            padding-bottom: 8px;
+            position: relative;
+            .small-dog{
+                display: inline-block;
+                width: 105px;
+                height: 26px;
+                color: #666666;
+                border: 1px solid #e4e4e4;
+                span{
+                    padding-left: 18px;
+                     padding-right: 38px;
+                    display: inline-block;
+                    font-size: 12px; 
+                    line-height: 24px;
+                }
+                b{
+                    display: inline-block;
+                    width: 11px;
+                    height: 7px;
+                    background: url(../../dist/image/bg2.png) no-repeat -38px -1258px;
+                }
+                ul{
+                    position: absolute;
+                    left: 18px;
+                    top: 60px;
+                    border: 1px solid #e4e4e4;
+                    li{
+                        display: list-item;
+                        line-height: 22px;
+                        height: 22px;
+                        overflow: hidden;
+                        border-bottom: 1px dashed #eee;
+                        a{
+                            color: #666666;
+                            font-size: 12px;
+
+                        }
+                    }
+                }
+            }
+            label{
+                margin: 0 12px;
+                display: inline-block;
+                width: 6px;
+                height: 10px;
+                background: url(../../dist/image/bg2.png) no-repeat -38px -1265px;
+            }
+            .small-main{
+                display: inline-block;
+                width: 105px;
+                height: 26px;
+                color: #666666;
+                border: 1px solid #e4e4e4;
+                span{
+                    padding-left: 18px;
+                     padding-right: 38px;
+                    display: inline-block;
+                    font-size: 12px; 
+                    line-height: 24px;
+                }
+                b{
+                    display: inline-block;
+                    width: 11px;
+                    height: 7px;
+                    background: url(../../dist/image/bg2.png) no-repeat -38px -1258px;
+                }
+                ul{
+                    position: absolute;
+                    left: 18px;
+                    top: 60px;
+                    border: 1px solid #e4e4e4;
+                    li{
+                        display: list-item;
+                        line-height: 22px;
+                        height: 22px;
+                        overflow: hidden;
+                        border-bottom: 1px dashed #eee;
+                        a{
+                            color: #666666;
+                            font-size: 12px;
+
+                        }
+                    }
+                }
+            }
+            label{
+                margin: 0 12px;
+                display: inline-block;
+                width: 6px;
+                height: 10px;
+                background: url(../../dist/image/bg2.png) no-repeat -38px -1265px;
+            }
+            .small-food{
+                display: inline-block;
+                width: 105px;
+                height: 26px;
+                color: #666666;
+                border: 1px solid #e4e4e4;
+                span{
+                    padding-left: 18px;
+                     padding-right: 38px;
+                    display: inline-block;
+                    font-size: 12px; 
+                    line-height: 24px;
+                }
+                b{
+                    display: inline-block;
+                    width: 11px;
+                    height: 7px;
+                    background: url(../../dist/image/bg2.png) no-repeat -38px -1258px;
+                }
+                ul{
+                    position: absolute;
+                    left: 18px;
+                    top: 60px;
+                    border: 1px solid #e4e4e4;
+                    li{
+                        display: list-item;
+                        line-height: 22px;
+                        height: 22px;
+                        overflow: hidden;
+                        border-bottom: 1px dashed #eee;
+                        a{
+                            color: #666666;
+                            font-size: 12px;
+
+                        }
+                    }
+                }
+            }
+            label{
+                margin: 0 12px;
+                display: inline-block;
+                width: 6px;
+                height: 10px;
+                background: url(../../dist/image/bg2.png) no-repeat -38px -1265px;
+            }
+            i{
+                font-size: 12px;
+                color: #444444;
+                font-style: normal;
+            }
+        }
+        .dog-detail-second{
+            width: 1200px;
+            overflow: hidden;
+            // position: relative;
+            .dog-compare{
+                width: 450px;
+               overflow: hidden;
+                // position: relative;
+                float: left;
+                .pih{
+                  width: 450px;
+                  overflow: hidden;
+                  // position: absolute;
+                  // top: 0;
+                  // bottom: 0;
+                .dog-det{
+                    width: 300px;
+                    height: 300px;
+                    margin: 0 auto;
+                    position: relative;
+                    a{
+                        img{
+                            display: block;
+                            width: 300px;
+                            height: 300px;
+                        }
+                    }
+                    .float-block-1{
+                      display: none;
+                      width: 100px;
+                      height: 100px;
+                      position: absolute;
+                      left: 0;
+                      top: 0;
+                      z-index: 1000;
+                      background:gray;
+                      opacity: 0.7;
+                    }
+                    .mask-1{
+                      display: block;
+                      width: 300px;
+                      height: 300px;
+                      position: absolute;
+                      background: black;
+                      opacity: 0;
+                      left:0;
+                      top:0;
+                      z-index: 1000;
+                    }
+                }
+                .big-image{
+                  width: 350px;
+                  height: 350px;
+                  border: 1px solid gray;
+                  background: red;
+                  position: absolute;
+                  left: 530px;
+                  top: 250px;
+                  z-index: 30001;
+                  overflow: hidden;
+                  display: none;
+                  img{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                  }
+                }
+                }
+                .pih1{
+                  display: none;
+                  width: 450px;
+                  overflow: hidden;
+                  // position: absolute;
+                  // top: 0;
+                  // bottom: 0;
+                  // display: none;
+                  .dog-det{
+                    width: 300px;
+                    height: 300px;
+                    margin: 0 auto;
+                    position: relative;
+                    a{
+                        img{
+                            display: block;
+                            width: 300px;
+                            height: 300px;
+                        }
+                    }
+                    .float-block-1{
+                      display: none;
+                      width: 100px;
+                      height: 100px;
+                      position: absolute;
+                      left: 0;
+                      top: 0;
+                      z-index: 1000;
+                      background:gray;
+                      opacity: 0.7;
+                    }
+                    .mask-1{
+                      display: block;
+                      width: 300px;
+                      height: 300px;
+                      position: absolute;
+                      background: black;
+                      opacity: 0;
+                      left:100px;
+                      top:0;
+                      z-index: 1000;
+                    }
+                }
+                .big-image{
+                  width: 350px;
+                  height: 350px;
+                  border: 1px solid gray;
+                  background: red;
+                  position: absolute;
+                  left: 530px;
+                  top: 250px;
+                  z-index: 30001;
+                  overflow: hidden;
+                  display: none;
+                  img{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                  }
+                }
+                }
+                .pih2{
+                 display: none;
+                  width: 450px;
+                  // position: absolute;
+                  // top: 0;
+                  // bottom: 0;
+                  .dog-det{
+                    width: 300px;
+                    height: 300px;
+                    margin: 0 auto;
+                    position: relative;
+          
+                    a{
+                        img{
+                            display: block;
+                            width: 300px;
+                            height: 300px;
+                        }
+                    }
+                    .float-block-1{
+                      display: none;
+                      width: 100px;
+                      height: 100px;
+                      position: absolute;
+                      left: 0;
+                      top: 0;
+                      z-index: 1000;
+                      background:gray;
+                      opacity: 0.7;
+                    }
+                    .mask-1{
+                      display: block;
+                      width: 300px;
+                      height: 300px;
+                      position: absolute;
+                      background: black;
+                      opacity: 0;
+                      left:0;
+                      top:0;
+                      z-index: 1000;
+                    }
+                }
+                .big-image{
+                  width: 350px;
+                  height: 350px;
+                  border: 1px solid gray;
+                  background: red;
+                  position: absolute;
+                  left: 530px;
+                  top: 250px;
+                  z-index: 30001;
+                  overflow: hidden;
+                  display: none;
+                  img{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                  }
+                }
+                }
+                .pih3{
+                  // display: none;
+                  width: 450px;
+                  display: none;
+                  // position: absolute;
+                  // top: 0;
+                  // bottom: 0;
+                  .dog-det{
+                    width: 300px;
+                    height: 300px;
+                    margin: 0 auto;
+                    position: relative;
+                  
+                    a{
+                        img{
+                            display: block;
+                            width: 300px;
+                            height: 300px;
+                        }
+                    }
+                    .float-block-1{
+                      display: none;
+                      width: 100px;
+                      height: 100px;
+                      position: absolute;
+                      left: 0;
+                      top: 0;
+                      z-index: 1000;
+                      background:gray;
+                      opacity: 0.7;
+                    }
+                    .mask-1{
+                      display: block;
+                      width: 300px;
+                      height: 300px;
+                      position: absolute;
+                      background: black;
+                      opacity: 0;
+                      left:0;
+                      top:0;
+                      z-index: 1000;
+                    }
+                }
+                .big-image{
+                  width: 350px;
+                  height: 350px;
+                  border: 1px solid gray;
+                  background: red;
+                  position: absolute;
+                  left: 530px;
+                  top: 250px;
+                  z-index: 30001;
+                  overflow: hidden;
+                  display: none;
+                  img{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                  }
+                }
+                }               
+                .small-image-all{
+                  margin: 0 auto;
+                  width: 389px;
+                  height: 84px;
+                  margin-top: 20px;
+                  margin-bottom: 50px;
+                  .left-page{
+                      width: 17px;
+                      height: 72px;
+                      cursor: pointer;
+                      border: 1px solid #e4e4e4;
+                      float: left;
+                      position: relative;
+                      span{
+                          z-index: 100;
+                          position: absolute;
+                          left: 0;
+                          top:0;
+                          display: block;
+                          width: 0;
+                          height: 0;
+                          border: 10px solid transparent;
+                          border-left: red;
+                      }
+    
+                  }
+                  .guai-img{
+                    .ul-img{
+                      display: block;
+                      width: 330px;
+                      height: 74px;
+                      float: left;
+                      li{
+                          border: 1px solid #e4e4e4;
+                          width: 72px;
+                          height: 72px;
+                          float: left;
+                          margin-left: 8px;
+                          a{
+                              display: block;
+                              width: 72px;
+                              height: 72px;
+                              img{
+                                  display: block;
+                                  width: 72px;
+                                  height: 72px;
+                              }
+                          }
+                      }
+                  }
+                  }
+                  .right-page{
+                      width: 17px;
+                      height: 72px;
+                      cursor: pointer;
+                      border: 1px solid #e4e4e4;
+                      float: left;
+                      position: relative;
+                      margin-left: 14px;
+                      span{
+                          z-index: 100;
+                          position: absolute;
+                          left: 0;
+                          top:0;
+                          display: block;
+                          width: 0;
+                          height: 0;
+                          border: 10px solid transparent;
+                          border-left: red;
+                      }
+    
+                  }
+                }
+                .share{
+                    width: 394px;
+                    height: 16px;
+                    .share-left{
+                        float: left;
+                        font-size: 12px;
+                        color: #999999;
+                        margin-right: 188px;
+                    }
+                    .share-right{
+                        float: left;
+                        font-size: 12px;
+                        color: #444444;
+                        .share-content{
+                            i{  
+                                display: inline-block;
+                                width: 12px;
+                                height: 15px;
+                                background: url(../../dist/image/xqico.png) no-repeat -9px -329px;
+                            }
+                        }
+                        .share-content-1{
+                            .i_1{  
+                                display: inline-block;
+                                width: 12px;
+                                height: 15px;
+                                background: url(../../dist/image/xqico.png) no-repeat -33px -361px;
+                            }
+                        }
+                    }
+                }
+            }
+            .dog-club{
+                width: 741px;
+                overflow: hidden;
+                background: #fcfcfc;
+                cursor: pointer;
+                h3{
+                    color: #333333;
+                    padding-top: 44px;
+                    padding-left: 41px;
+                    font-size: 18px;
+                    padding-bottom: 18px;
+                }
+                .epet-price{
+                    margin-left: 40px;
+                    .epet-club{
+                        width: 667px;
+                        height: 63px;
+                       
+                        background: url(../../dist/image/651d7a597b1696b0d77079d499e8cb69.png) no-repeat;
+                        .ft16{
+                            float:left;
+                            color: #ffffff;
+                            font-size: 16px;
+                           line-height: 63px;
+                           padding-left: 18px;
+                        }
+                        .ft-end{
+                            .time-end-ten{
+                                line-height: 63px;
+                                color: #ffffff;
+                                font-size: 12px;
+                                padding-left: 216px;
+                                i{
+                                  font-style: normal;
+                                 
+                                }
+                            }
+                            .timenum{
+                                color: #ffffff;
+                                font-size: 12px;
+                                .time1-1{
+                                    color:black;
+                                    font-weight: 600;
+                                    border-radius: 50%;
+                                    font-style: normal;
+                                    display: block;
+                                    display: inline-block;
+                            
+                                    line-height: 25px;
+                                    text-align: center;
+                                    width: 25px;
+                                    height:25px;
+                                    background: #ffffff;
+                                }
+                                .time-zi{
+                                    display: inline-block;
+                                    font-style: normal;
+                                }
+                            }
+                        }
+                    }
+                    .epet-price-1{
+                        width: 667px;
+                        height: 55px;
+                        color: #999999;
+                        font-size: 14px;
+                        .bit-price{
+                            padding-left: 20px;
+                            line-height: 55px;
+                        }
+                        .really-price{
+                            color: #e3393c;
+                            font-size: 16px;
+                        }
+                        .number-price{
+                            color: #e3393c;
+                            font-size: 26px;
+                            font-weight: 700;
+                        }
+                        .c333{
+                            color: #333333;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .cuXiao{
+                    margin-left: 40px;
+                    padding-top: 23px;
+                    padding-bottom: 28px;
+                    
+                    .discount{
+                        color: #333333;
+                        font-size: 14px;
+                    }
+                    .cred{
+                        display: inline-block;
+                        a{
+                            color: #333333;
+                            font-size: 12px;
+                            b{
+                                color: #ffffff;
+                                // display: block;
+                                width: 55px;
+                                height: 16px;
+                                background: #e54649;
+                            }
+                            strong{
+                                color: #e54649;
+                            }
+                        }
+                    }
+                }
+                .price-detail{
+                    margin-left: 40px;
+                    width: 666px;
+                    overflow: hidden;
+                    padding-bottom: 20px;
+                    border-top: 1px dashed #dddddd;
+                    border-bottom: 1px dashed #dddddd;
+                    .clearfix{
+                        .ats-style{
+                            display: inline-block;
+                            font-size: 12px;
+                            margin-top: 23px;
+                            margin-bottom: 17px;
+                            .c999{
+                                color: #999999;
+                                font-size: 12px;
+                            }
+                            .ce54{
+                                color: #e54649;
+                                margin-right: 24px;
+                                
+                            }
+                            .c78b300{
+                                color: #c78b30;
+                            }
+                        }
+
+                    }
+                    .quality{
+                        .sure{
+                            display: block;
+                            li{
+                                float: left;
+                                width: 75px;
+                                height: 20px;
+                                padding-right: 14px;
+                                position: relative;
+                                border-right: 1px solid #d7d7d7;
+                                &:nth-child(2){
+                                    margin-left: 14px;
+                                    margin-right: 14px;
+                                }
+                                img{
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    display: inline-block;
+                                    width: 22px;
+                                    height: 22px;
+                                }
+                                span{
+                                    position: absolute;
+                                    left: 24px;
+                                    top: 3px;
+                                    color: black;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .gun-1{
+                  margin-left: 40px;
+                  color: #999999;
+                  font-size: 12px;
+                  padding-top: 15px;
+                  
+                  .same{
+                        color: #999999;
+                        font-size: 14px;
+                        .same1{
+                            display: inline-block;
+                            width: 41px;
+                            height: 24px;
+                            border: 1px solid #cccccc;
+                            text-align: center;
+                            line-height: 24px;
+                            
+                            a{
+                                color: #333333;
+                                position: relative;
+                                .pict{
+                                    display: block;
+                                    width: 17px;
+                                    height: 16px;
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    z-index: 10000;
+                                    background: url(../../dist/image/goods-select.png) no-repeat 0px 0px;
+                                }
+                            }
+                        }
+                  }
+                  span{
+                      color: #999999;
+                      font-size: 14px;
+                  }
+                  i{
+                      color: #444444;
+                      font-style: normal;
+                  }
+                }
+                .gh{
+                  margin-bottom: 25px;
+                }
+                #gun1{
+                  width: 670px;
+                  border-top: 1px dashed #e4e4e4;
+                }
+                .suan{
+                  display: inline-block;
+                  width: 88px;
+                  height: 34px;
+                  border: 1px solid #e4e4e4;
+                  text-align: center;
+                  color: #000000;
+                  .jiahao{
+                    display: inline-block;
+                    width: 15px;
+                    height: 32px;
+                    background: #f3f3f3;
+                    margin: 1px;
+                    font-style: normal;
+                    line-height: 32px;
+                  }
+                  a{
+                    display: inline-block;
+                    width: 52px;
+                    height: 32px;
+                    line-height: 32px;
+                    border: 1px solid #f3f3f3;
+                  }
+                  .jianhao{
+                    font-style: normal;
+                    display: inline-block;
+                    width: 15px;
+                    height: 32px;
+                    line-height: 32px;
+                    background:  #f3f3f3;
+                    margin: 1px;
+                    
+                  }
+                }
+                em{
+                  display: inline-block;
+                  margin-left: 3px;
+                  color: #000000;
+                  font-size: 14px;
+                  font-style: normal;
+                }
+                .shop-carts{
+                  margin-top: 33px;
+                  margin-left: 40px;
+                  color: white;
+                  display: block;
+                  width: 190px;
+                  height: 56px;
+                  background:#78b300;
+                  line-height: 56px;
+                  text-align:center;
+                  border-radius: 5px;
+                }
+            }
+
+        }
+    }
+}
